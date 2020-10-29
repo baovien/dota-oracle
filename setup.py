@@ -15,5 +15,5 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/baovien/dota-oracle",
     packages=["doracle"],
-    install_requires=['flask'],
+    install_requires=['flask', 'requests'],
 )
